@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Designer</title>
+  <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+  <script>tailwind.config = { theme: { extend: { colors: { primary: '#333333', secondary: '#6B7280' }, borderRadius: { 'none': '0px', 'sm': '4px', DEFAULT: '8px', 'md': '12px', 'lg': '16px', 'xl': '20px', '2xl': '24px', '3xl': '32px', 'full': '9999px', 'button': '8px' } } } }</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+  <style>
+    :where([class^="ri-"])::before {
+      content: "\f3c2";
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+
+    .text-balance {
+      text-wrap: balance;
+    }
+  </style>
+</head>
+
+<body class="bg-white">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <!-- Header -->
+    <header class="flex justify-between items-center ">
+      <div class="flex items-center">
+        <!-- <h1 class="text-xl font-['Pacifico'] text-primary">Surya</h1> -->
+        <img src="assets/logo.png" alt="Logo" style="width: 60px; height: auto;">
+      </div>
+      <a href="tel:+916238776527">
+        <button type="button" class="bg-primary text-white px-4 py-2 !rounded-button whitespace-nowrap">
+          Book a call
+        </button>
+      </a>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section -->
+      <section class="mb-15 bg-white rounded-lg p-8 shadow-sm">
+        <div class="flex flex-col lg:flex-row gap-12">
+          <div class="lg:w-1/2 flex-col ">
+
+            <div class="inline-flex items-center bg-blue-50 text-blue-600 px-3 py-1 rounded-full text-sm mt-28 mb-6">
+              <span class="w-2 h-2 bg-blue-600 rounded-full mr-2"></span>
+              AVAILABLE FOR WORK
+            </div>
+
+            <h2 class="text-5xl font-bold text-primary mb-6">Hi, I'm a UI Designer & Developer</h2>
+
+            <p class="text-gray-600 mb-8 max-w-lg">
+              I have 2 years of experience working on user-centered and intuitive
+              interfaces with startups and established brands.
+            </p>
+            <a href="#contact">
+              <button class="bg-primary text-white px-6 py-3 !rounded-button whitespace-nowrap">Contact Me</button>
+            </a>
+          </div>
+
+          <div class="lg:w-1/2">
+            <div class="relative">
+              <div class="bg-gray-50 p-6 rounded-lg mb-6">
+                <div class="flex items-center mb-4">
+                  <h3 class="text-xl font-semibold">Surya</h3>
+                  <div class="ml-auto text-sm text-gray-500">Kerala, India</div>
+                </div>
+
+                <div class="bg-white p-4 rounded-lg shadow-sm mb-4">
+                  <div class="flex items-center mb-2">
+                    <div class="w-8 h-8 flex items-center justify-center bg-blue-50 rounded-full mr-3">
+                      <i class="ri-layout-4-line text-blue-600"></i>
+                    </div>
+                    <span class="font-medium">UI DESIGN EXPERT</span>
+                  </div>
+                  <div class="text-gray-500 text-sm">$40 - $60/HR</div>
+                </div>
+
+                <img src="assets/cv india 1.png" alt="Designer Portrait" class="w-full h-64 object-cover rounded-lg">
+              </div>
+
+              <p class="text-sm text-gray-600 mb-4">The most recent brands I happily worked with:</p>
+              <div class="grid grid-cols-3 gap-4 mb-4 bg-gray-50  rounded-lg">
+                <div class="flex items-center justify-center   rounded-lg">
+                  <!-- <i class="ri-google-fill text-2xl"></i> -->
+                  <img src="assets/Deco dlight.png" alt="">
+                </div>
+                <div class="flex items-center justify-center  p-3 rounded-lg">
+                  <img src="assets/browser.png" alt="">
+                </div>
+                <div class="flex items-center justify-center  p-3 rounded-lg">
+                  <img src="assets/khadi.png" alt="">
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+
+
+        </div>
+        <!-- <div class="bg-gray-50 p-6 rounded-lg ">
+
+          <div class="flex justify-between">
+            <div class="w-8 h-8 flex items-center justify-center bg-gray-100 rounded-full">
+              <i class="ri-behance-fill text-blue-600"></i>
+            </div>
+            <div class="w-8 h-8 flex items-center justify-center bg-gray-100 rounded-full">
+              <i class="ri-linkedin-fill text-blue-800"></i>
+            </div>
+            <div class="w-8 h-8 flex items-center justify-center bg-gray-100 rounded-full">
+              <i class="ri-pinterest-fill text-red-600"></i>
+            </div>
+            <div class="w-8 h-8 flex items-center justify-center bg-gray-100 rounded-full">
+              <i class="ri-instagram-fill" style="color: #E1306C;"></i>
+            </div>
+
+             <div class="w-8 h-8 flex items-center justify-center bg-gray-100 rounded-full">
+              <i class="ri-twitter-x-fill"></i>
+            </div> 
+          </div>
+        </div> -->
+      </section>
+      <!-- Experience Section -->
+      <section class="mb-20">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="bg-white rounded-lg p-8 shadow-sm">
+            <h2 class="text-3xl font-bold text-primary mb-6"> My Experience</h2>
+            <p class="text-gray-600 mb-8">
+              I've worked with Agrya Ayurveda Clinic & Deco D'light, focusing on creating
+              user-centered designs that solve real problems.
+            </p>
+            <button class="bg-primary text-white px-4 py-2 !rounded-button whitespace-nowrap"><i
+                class="ri-arrow-right-line"></i></button>
+          </div>
+
+          <div class="bg-white rounded-lg p-8 shadow-sm">
+            <div class="flex items-center mb-6">
+              <div class="w-12 h-12 flex items-center justify-center mr-4">
+                <img src="assets/browser.png" alt="">
+              </div>
+              <div>
+                <h3 class="text-xl font-semibold">UI Designer & Developer at Agrya Ayurveda</h3>
+                <p class="text-gray-500">Jan 2025-May 2025</p>
+              </div>
+            </div>
+
+            <p class="text-gray-600">
+              Collaborated with the team at Agrya to design and develop intuitive, user-friendly interfaces for their
+              Ayurveda wellness platform.
+              Participated in user feedback sessions and iterative testing to enhance the overall user experience.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section class="mb-20">
+        <h2 class="text-3xl font-bold text-primary mb-8">Projects</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="bg-white rounded-lg overflow-hidden shadow-lg p-6">
+            <img src="assets/AGRYA home.png" alt="Project 1" class="w-full h-64 object-cover object-top">
+            <div class="py-6 ">
+              <h3 class="text-xl font-semibold mb-2">Agrya Ayurveda Panchakarma Center</h3>
+              <p class="text-gray-600 mb-4">Worked closely with the Agrya team to design and develop a responsive and
+                visually appealing Ayurveda wellness website.
+                Contributed to UI/UX decisions, implemented user-friendly layouts improving user
+                engagement by 40%.</p>
+
+              <div class="flex gap-2 items-center flex-wrap">
+                <span class="bg-gray-100 text-gray-800 text-xs px-3 py-1 rounded-full">UI Design</span>
+                <span class="bg-gray-100 text-gray-800 text-xs px-3 py-1 rounded-full">Figma</span>
+                <span class="bg-gray-100 text-gray-800 text-xs px-3 py-1 rounded-full">WordPress</span>
+
+                <a href="https://agryaayurveda.com/" target="_blank" rel="noopener noreferrer">
+                  <span
+                    class="bg-blue-600 text-white text-xs px-3 py-1  rounded-full hover:bg-blue-700 transition">View</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-lg overflow-hidden shadow-lg p-6">
+            <img src="assets/Deco D'light.png" alt="Project 2" class="w-full h-64 object-cover object-top">
+            <div class="py-6">
+              <h3 class="text-xl font-semibold mb-2">Deco D'light</h3>
+              <p class="text-gray-600 mb-4">Designed a complete e-commerce UI focusing on simplicity and
+                conversion optimization.</p>
+              <div class="flex gap-2">
+                <span class="bg-gray-100 text-gray-800 text-xs px-3 py-1 rounded-full">UX Research</span>
+                <span class="bg-gray-100 text-gray-800 text-xs px-3 py-1 rounded-full">UI Design</span>
+                <span class="bg-gray-100 text-gray-800 text-xs px-3 py-1 rounded-full">Prototyping</span>
+                 <a href="https://agryaayurveda.com/" target="_blank" rel="noopener noreferrer">
+                  <span
+                    class="bg-blue-600 text-white text-xs px-3 py-1  rounded-full hover:bg-blue-700 transition">View</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section class="mb-20 bg-white rounded-lg p-8 shadow-sm">
+        <h2 class="text-3xl font-bold text-primary mb-8">Skills & Tools</h2>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <div class="text-center">
+            <div class="w-16 h-16 flex items-center justify-center bg-blue-50 rounded-full mx-auto mb-4">
+              <i class="ri-layout-masonry-line text-blue-600 text-2xl"></i>
+            </div>
+            <h3 class="font-semibold mb-2">UI Design</h3>
+            <p class="text-gray-600 text-sm">Creating beautiful, intuitive interfaces</p>
+          </div>
+
+          <div class="text-center">
+            <div class="w-16 h-16 flex items-center justify-center bg-yellow-50 rounded-full mx-auto mb-4">
+              <i class="ri-code-s-slash-line text-blue-600 text-2xl"></i>
+            </div>
+            <h3 class="font-semibold mb-2">Development</h3>
+            <p class="text-gray-600 text-sm">Building responsive and high-performing websites</p>
+          </div>
+
+
+          <div class="text-center">
+            <div class="w-16 h-16 flex items-center justify-center bg-purple-50 rounded-full mx-auto mb-4">
+              <i class="ri-code-box-line text-purple-600 text-2xl"></i>
+            </div>
+            <h3 class="font-semibold mb-2">Prototyping</h3>
+            <p class="text-gray-600 text-sm">Building interactive prototypes</p>
+          </div>
+
+          <div class="text-center">
+            <div class="w-16 h-16 flex items-center justify-center bg-yellow-50 rounded-full mx-auto mb-4">
+              <i class="ri-team-line text-yellow-600 text-2xl"></i>
+            </div>
+            <h3 class="font-semibold mb-2">Collaboration</h3>
+            <p class="text-gray-600 text-sm">Working effectively with teams</p>
+          </div>
+
+
+        </div>
+
+        <div class="mt-12">
+          <h3 class="font-semibold mb-6 text-center">Tools I Use Daily</h3>
+          <div class="flex flex-wrap justify-center gap-6">
+            <div class="flex items-center bg-gray-50 px-4 py-2 rounded-lg">
+              <i class="ri-figma-fill mr-2 text-purple-600"></i>
+              <span>Figma</span>
+            </div>
+            <div class="flex items-center bg-gray-50 px-4 py-2 rounded-lg">
+              <i class="ri-wordpress-line mr-2 text-blue-600"></i>
+              <span>Wordpress</span>
+            </div>
+            <div class="flex items-center bg-gray-50 px-4 py-2 rounded-lg">
+              <img src="assets/elementor.png" alt="Elementor" class="mr-2"> <span> Elementor</span>
+            </div>
+            <div class="flex items-center bg-gray-50 px-4 py-2 rounded-lg">
+              <img src="assets/chatgpt.png" alt="Chatgpt" class="mr-2"> <span>Chatgpt</span>
+            </div>
+            <div class="flex items-center bg-gray-50 px-4 py-2 rounded-lg">
+              <i class="ri-html5-line mr-2 text-orange-600"></i>
+              <span>HTML/CSS</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="bg-white rounded-lg p-8 shadow-sm">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div>
+            <h2 class="text-3xl font-bold text-primary mb-6">Let's connect</h2>
+            <p class="text-gray-600 mb-8">
+              I'm currently available for freelance work and full-time positions.
+              If you're interested in working together, please get in touch.
+            </p>
+
+            <div class="mb-8">
+              <div class="flex items-center mb-4">
+                <div class="w-10 h-10 flex items-center justify-center bg-gray-100 rounded-full mr-4">
+                  <i class="ri-mail-line text-gray-600"></i>
+                </div>
+                <span>gayatririshi56@gmail.com</span>
+              </div>
+
+              <div class="flex items-center">
+                <div class="w-10 h-10 flex items-center justify-center bg-gray-100 rounded-full mr-4">
+                  <i class="ri-map-pin-line text-gray-600"></i>
+                </div>
+                <span>Kerala, India</span>
+              </div>
+            </div>
+
+            <div class="flex gap-4">
+              <div class="w-10 h-10 flex items-center justify-center bg-gray-100 rounded-full">
+                <i class="ri-linkedin-fill text-blue-800"></i>
+              </div>
+              <div class="w-10 h-10 flex items-center justify-center bg-gray-100 rounded-full">
+                <i class="ri-dribbble-fill text-pink-500"></i>
+              </div>
+              <div class="w-10 h-10 flex items-center justify-center bg-gray-100 rounded-full">
+                <i class="ri-behance-fill text-blue-600"></i>
+              </div>
+              <div class="w-10 h-10 flex items-center justify-center bg-gray-100 rounded-full">
+                <i class="ri-twitter-x-fill"></i>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <form action="https://formspree.io/f/mrbqjvpd" method="POST">
+              <div class="mb-4">
+                <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Name</label>
+                <input type="text" id="name" name="name" required
+                  class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" />
+              </div>
+
+              <div class="mb-4">
+                <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+                <input type="email" id="email" name="email" required
+                  class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" />
+              </div>
+
+              <div class="mb-6">
+                <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Message</label>
+                <textarea id="message" name="message" rows="5" required
+                  class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+              </div>
+
+              <button type="submit"
+                class="w-full bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition">
+                Send Message
+              </button>
+            </form>
+
+
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="mt-20 text-center text-gray-500 text-sm">
+      <p>© 2025 Surya. All rights reserved.</p>
+      <p class="mt-2">Last updated: May 17, 2025</p>
+    </footer>
+  </div>
+</body>
+
+</html>

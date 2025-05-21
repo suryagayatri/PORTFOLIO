@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #222;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 5%;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .text-section {
+    max-width: 500px;
+  }
+  
+  .available-tag {
+    background-color: #e0f7ff;
+    color: #00aaff;
+    font-size: 14px;
+    padding: 5px 12px;
+    display: inline-block;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  
+  h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin: 0;
+  }
+  
+  h1 span {
+    font-weight: bold;
+  }
+  
+  .text-section p {
+    font-size: 16px;
+    color: #555;
+    margin: 1.2rem 0;
+    max-width: 400px;
+  }
+  
+  .contact-btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .profile-card {
+    display: flex;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .profile-info {
+    flex: 1;
+  }
+  
+  .project-preview {
+    width: 100%;
+    border-radius: 10px;
+    margin: 0.5rem 0;
+  }
+  
+  .expert-badge {
+    font-size: 14px;
+    color: #444;
+    font-weight: bold;
+    margin: 0.4rem 0;
+  }
+  
+  .rate {
+    color: #0077ff;
+    font-weight: bold;
+    margin-top: 0.2rem;
+  }
+  
+  .profile-img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  
+  .brands-card {
+    background: linear-gradient(90deg, #c3dafe, #e0e7ff);
+    padding: 1.2rem;
+    border-radius: 20px;
+    text-align: left;
+  }
+  
+  .brands-card p {
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+  }
+  
+  .brands {
+    display: flex;
+    gap: 1.5rem;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+  }
+  
+  .social-icons img {
+    width: 28px;
+    height: 28px;
+    filter: grayscale(100%);
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  .social-icons img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+  }
+  
